@@ -20,7 +20,7 @@
         android:layout_width="265dp"
         android:layout_height="30dp"
         android:layout_marginEnd="24dp"
-        android:textColor="#F8F8F8"
+        android:textColor="#F40303"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

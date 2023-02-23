@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
                     LayoutInflater inflater =getLayoutInflater();
                     View layout=inflater.inflate(R.layout.toast_mensaje,(ViewGroup) findViewById(R.id.lytMensaje));
 
-                    TextView txtMensaje=(TextView) layout.findViewById(R.id.textView4);
-                    txtMensaje.setText("Contraseña y Usuario no son correctos");
+                    TextView txtAlerta=(TextView) layout.findViewById(R.id.textView4);
+                    txtAlerta.setText("Contraseña y Usuario no son correctos");
 
                     toastP.setDuration(Toast.LENGTH_LONG);
                     toastP.setView(layout);
